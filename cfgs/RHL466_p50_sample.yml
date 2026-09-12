@@ -1,0 +1,8 @@
+bg: [1.0, 0.7, 0.0]
+hair:
+  scale: 0.00001
+  n_strand: 60000
+  n_segment: 49
+sim:
+  frenet: data-sample/RHL466/hairstyle/sim/rightleft
+  n_frenet: 68
