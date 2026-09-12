@@ -17,9 +17,13 @@ Download data-sample.zip from: https://keeper.mpdl.mpg.de/f/7150ea288f8847678486
 
 Bald-head training, hair-strand color training, and animated hair rendering, built on GaussianAvatars. See [`physhead-public/`](physhead-public/) for the code and setup.
 
-<img src="physhead-public/assets/bald_head_render.gif" alt="Bald-head reconstruction render" height="200"/>
-<img src="physhead-public/assets/animated_composite_render.gif" alt="Animated head+hair composite render" height="200"/>
-<img src="physhead-public/assets/animated_hair_render.gif" alt="Animated hair-only render" height="200"/>
+<table>
+<tr>
+<td><img src="physhead-public/assets/bald_head_render.gif" alt="Bald-head reconstruction render" height="200"/></td>
+<td><img src="physhead-public/assets/animated_composite_render.gif" alt="Animated head+hair composite render" height="200"/></td>
+<td><img src="physhead-public/assets/animated_hair_render.gif" alt="Animated hair-only render" height="200"/></td>
+</tr>
+</table>
 
 ## Hair Simulation
 
