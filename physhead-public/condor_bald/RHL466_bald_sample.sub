@@ -1,0 +1,13 @@
+
+executable = /bin/bash
+arguments = RHL466_bald_sample.sh
+# LOGS
+error  = ../logs_condor/$(ClusterId).$(ProcId)_20_bald_sample.err
+output = ../logs_condor/$(ClusterId).$(ProcId)_20_bald_sample.out
+log    = ../logs_condor/$(ClusterId).$(ProcId)_20_bald_sample.log
+
+request_cpus = 10
+request_gpus = 1
+requirements = (TARGET.CUDAGlobalMemoryMb > 40000) && (TARGET.CUDAGlobalMemoryMb < 80000) && (UtsnameNodename =!= "g156") && (UtsnameNodename =!= "g121") && (UtsnameNodename =!= "g164")
+request_memory = 131072
+queue

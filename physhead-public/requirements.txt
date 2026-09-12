@@ -1,0 +1,15 @@
+tqdm
+numpy==1.22.3
+matplotlib
+scipy
+chumpy
+tensorboard
+fvcore
+iopath
+plyfile
+tyro
+dearpygui
+roma
+git+https://github.com/NVlabs/nvdiffrast
+git+https://github.com/nerfstudio-project/gsplat.git
+submodules/simple-knn

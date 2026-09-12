@@ -1,0 +1,10 @@
+actor: UNION10_v6_wo_20230313--1653--RHL466
+source_path: data-sample/RHL466/facial_animation/${actor}
+model_path: experiments/${actor}_bald_sample
+port: 60467
+eval: true
+bind_to_mesh: true
+disable_flame_static_offset: true
+not_finetune_flame_params: true
+iterations: 600000
+interval: 100000

@@ -1,0 +1,16 @@
+actor: 20230313--1653--RHL466
+source_path: data-sample/RHL466/hairstyle/Ava-256-2_EXP_cheek002_2
+model_path: experiments/${actor}_hair_p50_sample
+port: 60472
+eval: true
+white_background: false
+bind_to_mesh: true
+disable_flame_static_offset: true
+not_finetune_flame_params: true
+iterations: 50000
+interval: 5000
+head_iteration: 600000
+head_ply: experiments/UNION10_v6_wo_${actor}_bald_sample/point_cloud/iteration_600000/point_cloud.ply
+scale_gaus: data-sample/RHL466/hairstyle/geometry/guided_2_k60000_p50_dist_scale_frenet.npy
+rot_gaus: data-sample/RHL466/hairstyle/geometry/guided_2_k60000_p50_dist_rot_frenet.npy
+fix_tstep: 1231
