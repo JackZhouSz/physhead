@@ -2,6 +2,7 @@
 [CVPR 2026] PhysHead: Simulation-Ready Gaussian Head Avatars
 
 ## News
+[2026-09-20] Released the FLAME tracking code for the Ava-256 dataset and the bald dataset generation code: [VHAP_ava](https://github.com/bernakabadayi/VHAP_ava).  
 [2026-09-12] Added a sample dataset. Download from [Keeper](https://keeper.mpdl.mpg.de/f/7150ea288f8847678486/). It includes tracked meshes, a simulation example, and bald images, reconstructed hair.  
 [2026-09-12] Released the PhysHead avatar reconstruction code (`physhead-public/`): bald-head training, hair-strand color training, and animated hair rendering. See [`physhead-public/README.md`](physhead-public/README.md).  
 [2026-04-21] Added sample hair simulation data. Download from [Google Drive](https://drive.google.com/file/d/1SsM5iodhJeZxGA-gghDr1GwaccQegVmb/view?usp=sharing).  
@@ -31,9 +32,13 @@ Bald-head training, hair-strand color training, and animated hair rendering, bui
 
 Given a FLAME sequence and a hair mesh, simulate hair in Maya. See [`hairsim/`](hairsim/) for the pipeline and setup.
 
+## Tracking
+
+FLAME tracking for the Ava-256 dataset and generation of the bald training images, built on VHAP. See [VHAP_ava](https://github.com/bernakabadayi/VHAP_ava) for the code and setup.
+
 ## Todo
 
-- [ ] FLAME tracking code for Ava-256 dataset
-- [ ] Bald dataset generation code
+- [x] FLAME tracking code for Ava-256 dataset
+- [x] Bald dataset generation code
 - [x] PhysHead avatar reconstruction code
 - [x] Hair Simulation code
