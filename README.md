@@ -48,3 +48,7 @@ Computes rotation-minimizing (Frenet) frames for dense hair strands, used for an
 - [x] PhysHead avatar reconstruction code
 - [x] Hair Simulation code
 - [x] Hair preprocessing scripts
+
+## Contact
+
+[berna.kabadayi@tuebingen.mpg.de](mailto:berna.kabadayi@tuebingen.mpg.de)
