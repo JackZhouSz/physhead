@@ -42,3 +42,4 @@ FLAME tracking for the Ava-256 dataset and generation of the bald training image
 - [x] Bald dataset generation code
 - [x] PhysHead avatar reconstruction code
 - [x] Hair Simulation code
+- [ ] Hair preprocessing scripts
